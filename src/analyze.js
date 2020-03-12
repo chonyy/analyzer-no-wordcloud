@@ -291,12 +291,12 @@ function analyse() {
 
     generatePlots();
 
-    cloudlist = WordFreqSync(options).process(content);
-    cloudlist = processlist(cloudlist);
-    if (window.screen.width > 768)
-        WordCloud(document.getElementById('wordcloud'), { list: cloudlist, shrinktofit: true, drawOutOfBound: false });
-    else
-        WordCloud(document.getElementById('wordcloud-mobile'), { list: cloudlist, shrinktofit: true, drawOutOfBound: false });
+    // cloudlist = WordFreqSync(options).process(content);
+    // cloudlist = processlist(cloudlist);
+    // if (window.screen.width > 768)
+    //     WordCloud(document.getElementById('wordcloud'), { list: cloudlist, shrinktofit: true, drawOutOfBound: false });
+    // else
+    //     WordCloud(document.getElementById('wordcloud-mobile'), { list: cloudlist, shrinktofit: true, drawOutOfBound: false });
 
 }
 
